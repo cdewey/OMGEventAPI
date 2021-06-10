@@ -67,7 +67,6 @@ function formatEvents(events){
 
     //presume all time data is given as UTC
     event.start = new Date(event.start);
-    console.log(event.start);
     if(event.end == ''){
       event.end = null;
     }
